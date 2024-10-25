@@ -33,12 +33,14 @@ $features = $con->query($sql);
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Cars
         </a>
+
         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
           <li><a class="dropdown-item" href="./details.php">Audi</a> </li>
           <li><hr class="dropdown-divider"> </li>
-         <li> <a class="dropdown-item" href="./ferrari.php">Ferrari</a></li>
+         <li> <a class="dropdown-item" href="./ferrari.php">Ferrari Car</a></li>
          <li><hr class="dropdown-divider"> </li>
          <li> <a class="dropdown-item" href="./benz.php">Benz</a></li>
+
     </ul>
     </li>
     </ul>
@@ -63,4 +65,4 @@ while ($cars = mysqli_fetch_assoc($features)):
 <?php endwhile; ?>
 </div>
 </body>
-</html>
+</html> 
